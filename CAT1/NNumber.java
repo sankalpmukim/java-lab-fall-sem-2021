@@ -1,3 +1,4 @@
+package CAT1;
 
 public class NNumber {
     public int n;
