@@ -1,26 +1,16 @@
 package Q14;
 
-import java.util.Scanner;
-
 public class Female {
     public int numDish1;
     public int numDish2;
     public int numDish3;
     public int numDish4;
 
-    public Female() {
-        Scanner sc = new Scanner(System.in);
-        // sc.nextLine();
-        System.out.println("Enter details for female students");
-        System.out.print("Enter number of dish1s: ");
-        numDish1 = sc.nextInt();
-        System.out.print("Enter number of dish2s: ");
-        numDish2 = sc.nextInt();
-        System.out.print("Enter number of dish3s: ");
-        numDish3 = sc.nextInt();
-        System.out.print("Enter number of dish4s: ");
-        numDish4 = sc.nextInt();
-        sc.close();
+    public Female(int dish1, int dish2, int dish3, int dish4) {
+        this.numDish1 = dish1;
+        this.numDish2 = dish2;
+        this.numDish3 = dish3;
+        this.numDish4 = dish4;
     }
 
     public int total() {
