@@ -1,4 +1,4 @@
-import java.util.*;
+package Midterm;
 
 class Thread1 extends Thread {
     int counth1 = 0, counth2 = 0;

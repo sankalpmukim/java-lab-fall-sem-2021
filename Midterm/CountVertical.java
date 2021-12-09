@@ -1,3 +1,4 @@
+package Midterm;
 
 public class CountVertical extends Thread {
     public boolean notFinished;

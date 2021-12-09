@@ -2,5 +2,16 @@
     "java.project.sourcePaths": [
         "CyclesheetOne",
         ""
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "javafxproject/javafx-sdk-17.0.1/lib/javafx.base.jar",
+        "javafxproject/javafx-sdk-17.0.1/lib/javafx.controls.jar",
+        "javafxproject/javafx-sdk-17.0.1/lib/javafx.fxml.jar",
+        "javafxproject/javafx-sdk-17.0.1/lib/javafx.graphics.jar",
+        "javafxproject/javafx-sdk-17.0.1/lib/javafx.media.jar",
+        "javafxproject/javafx-sdk-17.0.1/lib/javafx.swing.jar",
+        "javafxproject/javafx-sdk-17.0.1/lib/javafx.web.jar",
+        "javafxproject/javafx-sdk-17.0.1/lib/javafx-swt.jar"
     ]
 }

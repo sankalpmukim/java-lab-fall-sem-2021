@@ -1,3 +1,4 @@
+package Midterm;
 
 public class CountHorizontal extends Thread {
     public boolean notFinished;
